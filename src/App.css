@@ -1,0 +1,379 @@
+
+
+
+.skills {
+  color:  rgb(11, 212, 168) ; 
+ 
+  text-align: center;
+}
+
+body {
+  background-color: #162d41;
+  
+ }
+
+ .space {
+  margin-top: 20px;
+ }
+
+.center {
+  align-items: center;
+  justify-content: center;
+  place-items: center; 
+  text-align:center;
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .sectionimage {
+  display:flex;
+
+  align-items:center; 
+ justify-content: center;
+
+ place-items: center; /* Centers both horizontally & vertically */
+width: 500px;
+height: 300px;
+
+ }
+.search {
+  display:block;
+}
+ .imageandtext {
+  display: flex;
+  align-items:center; 
+ }
+
+ .end {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex; /* Activează flexbox */
+  align-items: center; /* Aliniază vertical */
+  justify-content: space-between; /* Împinge elementele spre margini */
+}
+
+/* .para {
+  justify-content: right;
+  margin-bottom: 20px;
+
+
+} */
+.nav {
+ color: rgb(11, 212, 168) ; 
+ display:flex;
+ align-items: right;
+ justify-content: space-between;
+}
+.mynav {
+  color: white;
+  display:flex;
+}
+.search-input {
+visibility: visible;
+
+}
+
+.devcomp {
+  display: block;
+
+
+}
+
+.green {
+  color: rgb(11, 212, 168) ; 
+  font-size: 60px;
+  text-align: center;
+}
+.whitetext {
+  color:white;
+}
+.greenline {
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  size:20px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto;
+
+transform: translate(650px, -25px);
+}
+.greentext {
+  color: rgb(11, 212, 168) ; 
+}
+
+.icon:hover {
+background-color: rgb(11, 212, 168);
+}
+.link {
+  color: rgb(11, 212, 168);
+}
+
+.developer {
+  color:rgb(134, 236, 217);
+  text-align: center;
+  font-size: 60px;
+}
+
+
+.search-container {
+  display: none;
+}
+
+
+.search-results li {
+padding: 6px;
+
+}
+.search-results.hover {
+background-color: rgb(11, 212, 168); }
+.search-container.active {
+  display: block;
+}
+
+.error {
+background-color: red;
+color: black;
+}
+h5 {
+color: white;
+text-align: center;
+}
+.container {
+background-color: #162d41;
+
+}
+.sbutton {
+  background-color: #162d41;
+  color: white;
+  border: 2px solid rgb(11, 212, 168);
+  border-radius: 25px; /*forma rotunjita*/
+ justify-content: center;
+text-align: center;
+align-items: center;
+ top:50%;
+ left:50%;
+ display: flex;
+
+ margin-left: auto;
+ margin-right:auto;
+}
+
+.dowloadbutton {
+  background-color: white;
+  text-decoration-color:black;
+  border-radius: 25px;
+  
+}
+.theimage {
+  width: 300px;
+  height: 200px;
+  justify-content: left;
+
+
+}
+.devbutton {
+  background-color: rgb(105, 92, 92);
+  justify-content: left;
+width:80px;
+height:30px;
+border-radius: 15px;
+font-size:10px;
+ 
+}
+
+h2 {
+  color: rgb(11, 212, 168) ; 
+}
+
+.para {
+  color: white;
+text-align: center;
+}
+
+.devpara {
+  place-items: center; 
+ font-size: 40px;
+ color: white;
+padding-left: 20px;
+}
+
+.greentext {
+  color: rgb(11, 212, 168) ; 
+
+}
+.greenh{
+  color: rgb(11, 212, 168) ; 
+  padding-left: 20px;
+  font-size:15px;
+
+}
+
+.htext {
+  padding-left: 20px;
+
+}
+
+.block {
+  display:block;
+
+  padding-left: 20px;
+ 
+}
+
+.littlegreen {
+  font-size:15px;
+  color: rgb(11, 212, 168) ; 
+}
+
+.border {
+  border: 2px solid white;
+  border-radius: 70px 1px;
+  place-items: center;
+  padding: 20px;
+}
+h6 {
+  color: white;
+}
+
+
+.imgborder {
+  border-radius: 50%;
+}
+
+.circle {
+  border-radius: 60px;
+  background-color: rgba(47, 42, 42, 0.677);
+  display:flex;
+  padding: 20px;
+}
+
+
+.bordergreen {
+  border: 2px solid  rgb(11, 212, 168);
+  border-radius: 20px 1px;
+width: fit-content;
+margin-top: 300px;
+
+}
+
+.elem {
+padding-left: 200px;
+
+}
+
+.top {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(115, 108, 108, 0.677);
+  border-radius: 20px;
+  width: fit-content;
+  padding:20px;
+  width: 600px;
+  height: 200px;
+  align-items: flex-start;
+}
+
+.containerul {
+  display: flex;
+  align-items: flex-start; 
+  gap: 50px; 
+}
+
+.greendiv {
+  
+  background-color:  rgb(11, 212, 168);
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column; /* Așază elementele vertical */
+  align-items: center; /* Centrează imaginea orizontal */
+  justify-content: flex-start; /* Plasează imaginea în partea de sus */
+
+
+
+}
+
+.imagediv {
+ 
+  
+  align-items: flex-start; 
+  width: 20px;
+  height: 20px;
+}
+
+.black {
+  color: black;
+}
+
+
+.divs {
+  display: flex;
+  justify-content: center;
+ margin-top: 20px;
+ gap: 20px;
+}
+
+
+.icons {
+  border-radius:50%;
+  width: 100px;
+  height:100p;
+}
+
+
+.together {
+  display: flex;
+  align-items: center; /* Aliniere verticală */
+  justify-content: center; /* Aliniere orizontală */
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.red-circle, .blue-circle, .yellow-circle, .lightblue-circle {
+  display: flex;
+  flex-direction: column; /* Elemente una sub alta */
+  align-items: center; /* Centrare pe orizontală */
+  justify-content: center; /* Centrare pe verticală */
+  width: 100px; /* Dimensiune fixă pentru cerc */
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.red-circle {
+  background-color: red;
+}
+
+.blue-circle {
+  background-color: blue;
+}
+
+.yellow-circle {
+  background-color: yellow;
+}
+
+.lightblue-circle {
+  background-color: lightblue;
+}
+
+.circle-img {
+  width: 50px; /* Ajustează dimensiunea iconiței */
+  height: 50px;
+}
+
+.circle-text {
+  margin-top: 8px; /* Spațiu între cerc și text */
+  font-size: 14px;
+  font-weight: bold;
+}

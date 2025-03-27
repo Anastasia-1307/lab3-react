@@ -1,12 +1,12 @@
-# Componente, Prop-uri & JSX - Implementare de UI Responsive  
+# React + Vite
 
-### 1. Inițiați un nou proiect *React* utilizând *Vite*.
-### 2. Dezvoltați și implementați o pagină web bazată pe proiectul individual realizat în cadrul cursului de *"Design UI/UX"*. Cei care nu au avut un astfel de curs, vor căuta și selecta un design ce trebuie aprobat de profesor. Fișierul *Figma* să fie inclus în proiect.
-### 3. Pagina trebuie sa fie responsive, să oferă o experiență optimă pe diverse dispozitive, de la telefoane mobile la tablete și desktopuri.
-### 4. Stilizarea paginii trebuie realizată folosind exclusiv *module CSS*. Este **interzisă** utilizarea bibliotecilor externe de stilizare, precum *Bootstrap*. 
-### 5. Pentru gestionarea rutelor și navigației în aplicația web, trebuie utilizat hook-ul implementat în cadrul lecțiilor sau implementarea unuia propriu.
-### 6. Informația repetitivă necesară de a fi afișată pe pagini trebuie să fie salvată în fișiere *.json*.  
-### 7. Definiți componente cât mai generice (ex: `Button`, `Card`, `Header`) care primesc date prin *props*.
-### 8. Utilizați **alias-uri** pentru ușurarea importărilor.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Exemplu de structură a unui astfel de proiect este [aici](https://github.com/cristi-usm/exemplu-lab3).
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
